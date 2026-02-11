@@ -1,0 +1,12 @@
+{
+      "name": "auth-service",
+      "version": "1.0.0",
+      "description": "Internal authentication microservice for backend applications",
+      "main": "src/index.js",
+      "scripts": {
+        "start": "node src/index.js"
+      },
+      "author": "platform-team",
+      "license": "MIT"
+    }
+    

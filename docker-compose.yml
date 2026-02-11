@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  auth-service:
+    image: node:18
+    container_name: auth-service
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: npm start
